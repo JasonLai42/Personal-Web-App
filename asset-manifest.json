@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/personal-web-app/static/css/main.073c9b0a.css",
-    "main.js": "/personal-web-app/static/js/main.d9e817a6.js",
-    "static/js/787.ac0d29f0.chunk.js": "/personal-web-app/static/js/787.ac0d29f0.chunk.js",
-    "static/media/logo.svg": "/personal-web-app/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/personal-web-app/index.html",
-    "main.073c9b0a.css.map": "/personal-web-app/static/css/main.073c9b0a.css.map",
-    "main.d9e817a6.js.map": "/personal-web-app/static/js/main.d9e817a6.js.map",
-    "787.ac0d29f0.chunk.js.map": "/personal-web-app/static/js/787.ac0d29f0.chunk.js.map"
+    "main.css": "/Personal-Web-App/static/css/main.073c9b0a.css",
+    "main.js": "/Personal-Web-App/static/js/main.104d2a3b.js",
+    "static/js/787.ac0d29f0.chunk.js": "/Personal-Web-App/static/js/787.ac0d29f0.chunk.js",
+    "static/media/logo.svg": "/Personal-Web-App/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Personal-Web-App/index.html",
+    "main.073c9b0a.css.map": "/Personal-Web-App/static/css/main.073c9b0a.css.map",
+    "main.104d2a3b.js.map": "/Personal-Web-App/static/js/main.104d2a3b.js.map",
+    "787.ac0d29f0.chunk.js.map": "/Personal-Web-App/static/js/787.ac0d29f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d9e817a6.js"
+    "static/js/main.104d2a3b.js"
   ]
 }

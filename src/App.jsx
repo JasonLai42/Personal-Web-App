@@ -1,5 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom';
+import Root from './routes/partials/Root';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Root />,
+  }
+]);
 
 function App() {
   return (
@@ -18,6 +30,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <RouterProvider router={router} />
     </div>
   );
 }

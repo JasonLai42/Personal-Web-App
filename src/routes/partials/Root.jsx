@@ -3,11 +3,6 @@ export default function Root() {
         <>
             <div id="sidebar">
                 <h1>React Router Contacts</h1>
-                <div>
-                <form method="post">
-                    <button type="submit">New</button>
-                </form>
-                </div>
                 <nav>
                 <ul>
                     <li>

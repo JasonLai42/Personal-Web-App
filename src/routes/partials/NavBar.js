@@ -3,21 +3,18 @@ import React from 'react';
 const NavBar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <a class="navbar-brand" href="/Personal-Web-App/">Replace this with image</a>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/about-me/">About Me</a>
+                    <a class="nav-link" href="/Personal-Web-App/about-me/">About Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/resume/">Resume</a>
+                    <a class="nav-link" href="/Personal-Web-App/resume/">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact-me/">Contact Me</a>
+                    <a class="nav-link" href="/Personal-Web-App/contact-me/">Contact Me</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -1,20 +1,23 @@
 import React from 'react';
+import {
+    Link
+} from 'react-router-dom';
 
 const NavBar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="/personal-web-app/">Replace this with image</a>
+            <Link to="/">Replace this with image</Link>
 
             <div class="navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="/personal-web-app/about-me/">About Me</a>
+                    <Link to="/about-me">About Me</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/personal-web-app/resume/">Resume</a>
+                    <Link to="/resume">Resume</Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/personal-web-app/contact-me/">Contact Me</a>
+                    <Link to="/contact-me">Contact Me</Link>
                 </li>
                 </ul>
             </div>

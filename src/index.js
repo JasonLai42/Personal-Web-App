@@ -10,8 +10,6 @@ import reportWebVitals from './reportWebVitals';
 
 const router = createHashRouter([
   {
-    // This is technically our root route, not '/', since GitHub Pages 
-    // uses the repo name as the path to the root of the web app.
     path: '/*',
     element: <App />,
   }

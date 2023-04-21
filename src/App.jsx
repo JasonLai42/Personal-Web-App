@@ -10,7 +10,6 @@ import AboutMe from './routes/pages/AboutMe';
 import Resume from './routes/pages/Resume';
 import ContactMe from './routes/pages/ContactMe';
 
-// Can't include /personal-web-app/ in the path for the routes, or else it doesn't render the pages
 function App() {
   return (
     <div className="App">

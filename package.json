@@ -2,7 +2,7 @@
   "name": "personal-web-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jasonlai42.github.io/Personal-Web-App",
+  "homepage": "https://jasonlai42.github.io/personal-web-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

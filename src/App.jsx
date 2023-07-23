@@ -15,10 +15,10 @@ function App() {
     <div className="App">
       <NavBar />
       <Routes>
-        <Route path="/" Component={Root}/>
-        <Route path="/about-me" Component={AboutMe}/>
-        <Route path="/resume" Component={Resume}/>
-        <Route path="/contact-me" Component={ContactMe}/>
+        <Route path="" Component={Root}/>
+        <Route path="about-me" Component={AboutMe}/>
+        <Route path="resume" Component={Resume}/>
+        <Route path="contact-me" Component={ContactMe}/>
       </Routes>
     </div>
   );

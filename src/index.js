@@ -6,12 +6,14 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import App from './App';
+import NotFound from './routes/pages/errors/NotFound';
 import reportWebVitals from './reportWebVitals';
 
 const router = createHashRouter([
   {
-    path: '/*',
+    path: '/',
     element: <App />,
+    errorElement: <NotFound />,
   }
 ]);
 

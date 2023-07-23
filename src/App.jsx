@@ -9,6 +9,7 @@ import Root from './routes/pages/Root';
 import AboutMe from './routes/pages/AboutMe';
 import Resume from './routes/pages/Resume';
 import ContactMe from './routes/pages/ContactMe';
+import NotFound from './routes/pages/errors/NotFound';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/about-me" Component={AboutMe}/>
         <Route path="/resume" Component={Resume}/>
         <Route path="/contact-me" Component={ContactMe}/>
+        <Route path="/*" Component={NotFound}/>
       </Routes>
     </div>
   );

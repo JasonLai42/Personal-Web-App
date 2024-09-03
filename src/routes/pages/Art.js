@@ -1,4 +1,4 @@
-export default function ContactMe() {
+export default function Art() {
     return (
         <>
             <div>

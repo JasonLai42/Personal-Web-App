@@ -1,7 +1,8 @@
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './routes/partials/NavBar';
-import Footer from './routes/partials/Footer'
+import Header from './routes/partials/Header';
+import Footer from './routes/partials/Footer';
 import {
   Routes,
   Route
@@ -14,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+      <Header />
       <Routes>
         <Route path="/" Component={Root}/>
         <Route path="/art" Component={Art}/>

@@ -1,9 +1,11 @@
 import React from 'react';
+import Header from './routes/partials/Header';
 import fun from './../../assets/personal img/fun.jpg';
 
 export default function Root() {
     return (
         <>
+            <Header />
             <div id="root-image-container" class="root-image-container">
                 <img src={fun} alt="fun image" />
             </div>

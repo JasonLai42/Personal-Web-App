@@ -16,8 +16,41 @@ code {
     monospace;
 }
 
+/*********************************************
+ *              NAV BAR STYLING              *
+ *********************************************/
+
+
+
+/***********************************************
+ *          ROOT PAGE HEADER STYLING           *
+ ***********************************************/
+
 .header-container {
-  width: 100px;
   height: 200px;
   background-color: black;
+}
+
+/*********************************************
+ *          ROOT PAGE IMAGE STYLING          *
+ *********************************************/
+
+.root-image-border {
+  width: 21rem;
+  height: 21rem;
+  background-color: black;
+  position: absolute;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.root-image-container {
+  width: 20rem;
+  height: 20rem;
+  /* 2.381% because we're putting a 20rem circle centered in a 21rem circle, so the border is 0.5 in width, which is 0.5/26 = ~0.02381 */
+  top: 2.381%;
+  left: 2.381%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
 }

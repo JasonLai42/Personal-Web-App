@@ -5,16 +5,11 @@ import {
 
 const NavBar = () => {
     return (
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <Link to="/">Replace this with image</Link>
-
-            <div class="navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <Link to="/art">Art</Link>
-                </li>
-                </ul>
-            </div>
+        <nav class="navbar-container">
+            <ul class="navbar-ul">
+                <li class="navbar-li"><Link to="/" class="navbar-text">Jason Lai</Link></li>
+                <li class="navbar-li"><Link to="/art" class="navbar-text">Art</Link></li>
+            </ul>
         </nav>
     )
 }

@@ -7,7 +7,7 @@ export default function Root() {
         <>
             <Header />
             <div id="root-image-container" class="root-image-container">
-                <img src={fun} alt="fun image" />
+                <img src={fun} />
             </div>
             <div id="root-text-container" class="root-text-container">
                 <div>Jason Lai</div>

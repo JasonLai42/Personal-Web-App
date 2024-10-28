@@ -41,28 +41,13 @@ code {
   padding: 14px 16px;
 }
 
-.navbar-text:focus {
-  text-decoration: none;
-  color: #FFF;
-}
-
 .navbar-text:hover {
   text-decoration: none;
   color: #FFF;
   background-color: #111;
 }
 
-.navbar-text:visited {
-  text-decoration: none;
-  color: #FFF;
-}
-
-.navbar-text:link {
-  text-decoration: none;
-  color: #FFF;
-}
-
-.navbar-text:active {
+.navbar-text:focus, .navbar-text:visited, .navbar-text:link, .navbar-text:active {
   text-decoration: none;
   color: #FFF;
 }

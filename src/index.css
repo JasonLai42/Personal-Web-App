@@ -16,15 +16,15 @@ code {
     monospace;
 }
 
-/* We have to change the root div (made in index.js) to be 100% the height of the screen, 
- * so we can turn it into a flex box and make our .main-container fill the rest 
- * of the screen. */
+/* We have to change the app-container div (App.jsx) and all of its ancestors to be 
+ * 100% the height of the screen, so we can turn it into a flex box and make our 
+ * .main-container fill the rest of the screen. */
 
-html, body, #root {
+html, body, #root, #app-container {
   height: 100%;
 }
 
-#root {
+#app-container {
   display: flex;
   flex-direction: column;
 }

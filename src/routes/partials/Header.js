@@ -3,8 +3,8 @@ export default function Header() {
         <>
             <div id="header-container" class="header-container">
                 <div id="header-text-container" class="header-text-container">
-                    <div>Software Engineer</div>
-                    <div>Rancho Cucamonga, California</div>
+                    <div id="header-title" class="header-title">Software Engineer</div>
+                    <div id="header-subtitle" class="header-subtitle">Rancho Cucamonga, California</div>
                 </div>
             </div>
         </>

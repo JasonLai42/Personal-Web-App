@@ -16,6 +16,19 @@ code {
     monospace;
 }
 
+/* We have to change the root div (made in index.js) to be 100% the height of the screen, 
+ * so we can turn it into a flex box and make our .main-container fill the rest 
+ * of the screen. */
+
+html, body, #root {
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
 /*********************************************
  *              NAV BAR STYLING              *
  *********************************************/
@@ -52,18 +65,20 @@ code {
   color: #FFF;
 }
 
+/*********************************************
+ *   MAIN CONTAINER STYLING FOR EVERY PAGE   *
+ *********************************************/
+
+.main-container {
+  flex-grow: 1;
+  background-image: linear-gradient(to bottom right, rgb(68, 11, 182), rgb(255, 128, 0));
+}
+
 /***********************************************
  *          ROOT PAGE HEADER STYLING           *
  ***********************************************/
 
-.header-container {
-  margin-top: 0;
-  height: 11rem;
-  width: 100%;
-  background-color: #000000;
-}
-
-.header-text-container {
+ .header-container {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -87,7 +102,7 @@ code {
  *          ROOT PAGE IMAGE STYLING          *
  *********************************************/
 
-.root-container {
+.root-content-container {
   display: flex;
   gap: 8rem;
 }
@@ -117,8 +132,7 @@ code {
  **********************************************/
 
 .footer-container {
-  position: absolute;
-  bottom: 0;
+  margin-bottom: 0;
   width: 100%;
   background-color: #181818;
   border-top: solid 1px #000000;

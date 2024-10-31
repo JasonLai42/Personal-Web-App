@@ -1,7 +1,7 @@
 export default function Art() {
     return (
         <>
-            <div>
+            <div id="main-container" class="main-container">
                 Stay tuned!
             </div>
         </>

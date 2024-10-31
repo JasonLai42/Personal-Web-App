@@ -12,7 +12,7 @@ import NotFound from './routes/pages/errors/NotFound';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <NavBar />
       <Routes>
         <Route path="/" Component={Root}/>
@@ -20,7 +20,7 @@ function App() {
         <Route path="/*" Component={NotFound}/>
       </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

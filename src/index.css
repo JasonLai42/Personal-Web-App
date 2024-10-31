@@ -44,7 +44,7 @@ code {
 .navbar-text:hover {
   text-decoration: none;
   color: #FFF;
-  background-color: #111;
+  background-color: #000000;
 }
 
 .navbar-text:focus, .navbar-text:visited, .navbar-text:link, .navbar-text:active {
@@ -58,17 +58,22 @@ code {
 
 .header-container {
   height: 200px;
-  background-color: black;
+  background-color: #000000;
 }
 
 /*********************************************
  *          ROOT PAGE IMAGE STYLING          *
  *********************************************/
 
+.root-container {
+  display: flex;
+  gap: 8rem;
+}
+
 .root-image-border {
   width: 21rem;
   height: 21rem;
-  background-color: black;
+  background-color: #000000;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
@@ -89,11 +94,28 @@ code {
  *               FOOTER STYLING               *
  **********************************************/
 
- .social-icon {
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #3d3d3d;
+  border-top: solid 1px #000000;
+}
+
+.social-container {
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  margin-left: 44.75%;
+  display: flex;
+  gap: 2rem;
+}
+
+.social-icon {
   width: 2rem;
   height: 2rem;
- }
+}
 
- .footer-text {
+.footer-text {
   font-family: Arial, Helvetica, sans-serif;
- }
+  color: #FFF;
+}

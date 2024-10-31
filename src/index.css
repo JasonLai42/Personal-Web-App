@@ -69,7 +69,7 @@ code {
   width: 21rem;
   height: 21rem;
   background-color: black;
-  position: absolute;
+  position: relative;
   overflow: hidden;
   border-radius: 50%;
 }
@@ -84,3 +84,16 @@ code {
   overflow: hidden;
   border-radius: 50%;
 }
+
+/**********************************************
+ *               FOOTER STYLING               *
+ **********************************************/
+
+ .social-icon {
+  width: 2rem;
+  height: 2rem;
+ }
+
+ .footer-text {
+  font-family: Arial, Helvetica, sans-serif;
+ }

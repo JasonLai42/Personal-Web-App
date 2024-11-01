@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/personal-web-app/static/css/main.ea224a2d.css",
-    "main.js": "/personal-web-app/static/js/main.c12acb19.js",
+    "main.css": "/personal-web-app/static/css/main.5be6fbfa.css",
+    "main.js": "/personal-web-app/static/js/main.fb87ce6b.js",
     "static/js/787.8a5b5d15.chunk.js": "/personal-web-app/static/js/787.8a5b5d15.chunk.js",
-    "static/media/fun.jpg": "/personal-web-app/static/media/fun.90f33eb2b176b184b0a3.jpg",
+    "static/media/fun.jpg": "/personal-web-app/static/media/fun.afff4418c537aabdeb38.jpg",
     "static/media/github.png": "/personal-web-app/static/media/github.83e9348a9f9282beadc9.png",
     "static/media/email.png": "/personal-web-app/static/media/email.fe10e2cac1b549c110ec.png",
     "static/media/linkedin.png": "/personal-web-app/static/media/linkedin.09ac741c048bee39aef9.png",
     "index.html": "/personal-web-app/index.html",
-    "main.ea224a2d.css.map": "/personal-web-app/static/css/main.ea224a2d.css.map",
-    "main.c12acb19.js.map": "/personal-web-app/static/js/main.c12acb19.js.map",
+    "main.5be6fbfa.css.map": "/personal-web-app/static/css/main.5be6fbfa.css.map",
+    "main.fb87ce6b.js.map": "/personal-web-app/static/js/main.fb87ce6b.js.map",
     "787.8a5b5d15.chunk.js.map": "/personal-web-app/static/js/787.8a5b5d15.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ea224a2d.css",
-    "static/js/main.c12acb19.js"
+    "static/css/main.5be6fbfa.css",
+    "static/js/main.fb87ce6b.js"
   ]
 }

@@ -10,8 +10,8 @@ export default function Root() {
                     <div id="header-subtitle" class="header-subtitle">Rancho Cucamonga, California</div>
                 </div>
                 <div id="root-content-container" class="root-content-container">
-                    <div id="root-image-border" class="root-image-border">
-                        <div id="root-image-container" class="root-image-container">
+                    <div id="root-image-container" class="root-image-container">
+                        <div id="root-image" class="root-image">
                             <img src={fun} />
                         </div>
                     </div>

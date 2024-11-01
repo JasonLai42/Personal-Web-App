@@ -110,22 +110,10 @@ html, body, #root, #app-container {
   gap: 8rem;
 }
 
-.root-image-border {
-  width: 21rem;
-  height: 21rem;
-  background-color: #181818;
-  position: relative;
-  overflow: hidden;
-  border-radius: 50%;
-}
-
-.root-image-container {
-  width: 20rem;
-  height: 20rem;
-  /* 2.381% because we're putting a 20rem circle centered in a 21rem circle, so the border is 0.5 in width, which is 0.5/26 = ~0.02381 */
-  top: 2.381%;
-  left: 2.381%;
-  position: relative;
+.root-image {
+  max-width: 21rem;
+  width: auto;
+  height: auto;
   overflow: hidden;
   border-radius: 50%;
 }

@@ -84,6 +84,7 @@ html, body, #root, #app-container {
   align-items: flex-start;
   padding-left: 7rem;
   padding-top: 0.6rem;
+  white-space: nowrap;
 }
 
 .header-title {
@@ -136,6 +137,7 @@ html, body, #root, #app-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  white-space: nowrap;
 }
 
 .root-text-subcontainer1 {

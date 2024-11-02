@@ -107,7 +107,7 @@ html, body, #root, #app-container {
 
 .root-content-container {
   margin-top: 2rem;
-  margin-left: 9rem;
+  margin-left: 19%;
   display: flex;
   gap: 8rem;
 }
